@@ -1,0 +1,83 @@
+body {
+    margin: auto;
+    padding: 0;
+    width: 80%;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(3, 46, 126);
+    padding: 0 50px;
+    font-size: 20px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-logo {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero-info {
+    padding: 0 20px;
+}
+
+.hero button {
+    background-color: rgb(79, 135, 255);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+img {
+    width: 30%;
+    padding: 50px;
+}
+
+
+.content {
+    background-color: blueviolet;
+}
+
+.testimonial {
+    background-color: chartreuse;
+}
+
+.register {
+    background-color: coral;
+}
+
+footer {
+    background-color: darkblue;
+}
