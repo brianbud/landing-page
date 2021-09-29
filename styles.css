@@ -67,7 +67,12 @@ img {
 
 
 .content {
-    background-color: blueviolet;
+    background-color: rgb(229, 200, 255);
+}
+
+.container img {
+    background-color: white;
+    border: solid red 2px;
 }
 
 .testimonial {
