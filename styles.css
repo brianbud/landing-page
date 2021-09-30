@@ -73,26 +73,35 @@ img {
 }
 
 
-.content {
-    background-color: ;
-}
-
 .content h2 {
     text-align: center;
-    padding-top: 30px;
+    padding: 20px 10px;
     font-size: 30px;
 
 }
 
 .container {
     display: flex;
+    align-items: center;
+    text-align: center;
     justify-content: center;
+    gap: 20px;
+
 }
 
 .container img {
     background-color: white;
-    border: solid red 5px;
+    border: solid lightskyblue 5px;
     border-radius: 20px;
+    padding: 70px;
+}
+
+.info .text {
+    font-size: 20px;
+    margin: 0 10px;
+    max-width: 200px;
+    padding-bottom: 50px;
+
 }
 
 .testimonial {
