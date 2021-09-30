@@ -1,5 +1,5 @@
 body {
-    margin: auto;
+    margin: 0 auto;
     padding: 0;
     width: 80%;
 
@@ -105,12 +105,28 @@ img {
 }
 
 .testimonial {
-    background-color: chartreuse;
+    background-color: #E5E7EB;
+    height: 300px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.register {
-    background-color: coral;
+.testimonial .quote {
+    width: 80%;
+    font: italic 30px serif;
 }
+
+.testimonial .caption {
+    display: flex;
+    margin-left: 500px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
 
 footer {
     background-color: darkblue;
