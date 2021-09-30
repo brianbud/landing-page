@@ -16,7 +16,7 @@ nav {
 
 nav ul {
     display: flex;
-    gap: 10px;
+    gap: 40px;
     list-style: none;
 
 }
@@ -24,6 +24,11 @@ nav ul {
 nav a {
     text-decoration: none;
     color: white;
+}
+
+nav,
+.hero {
+    background-color: #1F2937;
 }
 
 .header-logo {
@@ -37,6 +42,7 @@ nav a {
 }
 
 .hero h1 {
+    color: white;
     font-size: 50px;
     font-weight: 800;
     margin-bottom: 0;
@@ -44,6 +50,7 @@ nav a {
 
 .hero p {
     font-size: 18px;
+    color: white;
 }
 
 .hero-info {
@@ -67,12 +74,25 @@ img {
 
 
 .content {
-    background-color: rgb(229, 200, 255);
+    background-color: ;
+}
+
+.content h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
 
 .container img {
     background-color: white;
-    border: solid red 2px;
+    border: solid red 5px;
+    border-radius: 20px;
 }
 
 .testimonial {
