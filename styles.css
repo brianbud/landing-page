@@ -101,10 +101,13 @@ img {
 }
 
 .container img {
+
+    width: 200px;
+    height: 200px;
     background-color: white;
     border: solid lightskyblue 5px;
     border-radius: 20px;
-    padding: 80px;
+    padding: 0;
 }
 
 .info .text {
