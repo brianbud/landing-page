@@ -1,7 +1,13 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
 body {
     margin: 0 auto;
     padding: 0;
     width: 80%;
+
 }
 
 nav {
@@ -47,9 +53,8 @@ nav,
 
 
 .hero h1 {
-    color: white;
-    font-size: 50px;
-    font-weight: 800;
+    font: bold 48px sans-serif;
+    color: #f9f9f9;
     margin-bottom: 0;
 }
 
@@ -81,7 +86,8 @@ img {
 .content h2 {
     text-align: center;
     padding: 20px 10px;
-    font-size: 30px;
+    font-size: 36px;
+    color: #1F2937;
 
 }
 
@@ -121,6 +127,7 @@ img {
 .testimonial .quote {
     width: 80%;
     font: italic 30px serif;
+    color: #1F2937;
 }
 
 .testimonial .caption {
@@ -150,6 +157,7 @@ img {
 
 .call-to-action div h3 {
     margin-bottom: 0;
+    font-weight: 600;
 }
 
 .call-to-action div p {
@@ -162,11 +170,12 @@ button {
     background-color: #3882F6;
     border-radius: 10px;
     padding: 10px 40px;
+    font-weight: 900;
 }
 
 
 footer {
-    background-color: darkblue;
+    background-color: #1F2937;
     height: 100px;
     color: white;
     display: flex;
